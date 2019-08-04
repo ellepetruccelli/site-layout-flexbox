@@ -111,13 +111,6 @@ body {
   justify-content: center;
 }
 
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-}
-
 p span {
   font-family: 'Lora', sans-serif;
 }
@@ -146,13 +139,20 @@ main p {
 
 footer {
   display: inline-block;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 ul {
   display: flex;
   align-items: flex-start;
   list-style: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 1200px;
 }
 
 .flex-items {
@@ -169,7 +169,6 @@ ul {
   border-right: 1px solid #555;
   padding-right: 15px;
 }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
